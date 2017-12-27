@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Balat Coffee & Guide",
+		"type": "Kahve Dükkanı",
+		"district": "Balat, İstanbul",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/31233394_MSVVUI1SdxcUlbjGlB-pYU-6bnJGzgBM59N4cdBqAlM.jpg",
+        "foursquare_id": "595feee72f97ec37ca500c3a"
+	},
+	{
+		"name": "Drop Coffee",
+		"type": "Coffee Shop and Café",
+		"district": "Mariatorget, Stockholm",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/29108058_zsYF9c5nCSrLsUEEzusCJ86J_AHq8cu8spQgZ7xnLZs.jpg",
+        "foursquare_id": "4af290f1f964a520efe721e3"
+	},
+	{
+		"name": "Scandinavian Embassy",
+		"type": "Scandinavian Restaurant, Breakfast Spot, and Café",
+		"district": "Oude Pijp, Amsterdam",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/184637526_tY5LNwpc_3ZuL6zi_I0BK5Bl_ytXN4xerKQaiKnpZVs.jpg",
+        "foursquare_id": "526d033411d23d0eb51537f6"
+	},
+	{
+		"name": "Bröd",
+		"type": "Bakery",
+		"district": "Teşvikiye, Şişli",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/26666969_KtvuKBRSM30i3szkSwMEfqTrLjpZACgAm0YCFcbYt9E.jpg",
+        "foursquare_id": "55e9dd52498ed2c16859df23"
+	},
+	{
+		"name": "Caddebostan Sahili",
+		"type": "Waterfront",
+		"district": "Caddebostan, Kadıköy",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/45598384_PMvSsj1iCwKGH1-pWQEmD-CqOTUesMOD5uS-d-mFi2s.jpg",
+ 		"foursquare_id": "4b813f32f964a520069c30e3"
+	},
+	{
+		"name": "Fenerbahçe Parkı",
+		"type": "Park and Other Great Outdoors",
+		"district": "Fenerbahçe, Kadıköy",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/47700439_v4rbQ5blgcuFbT0OcmBChZ9yWdCWYU9ExHKoW5BaxXM.jpg",
+ 		"foursquare_id": "4b815460f964a520be9f30e3"
+	},
+	{
+		"name": "Yeniköy Sahili",
+		"type": "Waterfront",
+		"district": "Yeniköy, Sarıyer",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/47227521_CXk_0lez4Bu5BcvDOXcsGSLEbEHCLtIdjRpA3j3LgqY.jpg",
+ 		"foursquare_id": "4d0150ff527e236abe0fc285"
+	},
+	{
+		"name": "Bebek Parkı",
+		"type": "Park and Playground",
+		"district": "Bebek, Beşiktaş",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/46871659_DJW-5yxwEbIJFMPtVejI7BZBDXytUM6Da-L7HgS-EfA.jpg",
+ 		"foursquare_id": "4b811ccdf964a520379730e3"
+	},
+	{
+		"name": "Petra Roasting Co.",
+		"type": "Coffee Shop",
+		"district": "Gayrettepe, Istanbul",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/76505171_IQgcYvWO-EU01W_-HvNgb2xSRSHvOmeWIC3iWFAl8SU.jpg",
+ 		"foursquare_id": "52f11197498edafbd4e992ad"
+	},
+	{
+		"name": "Dem",
+		"type": "Tea Room and Café",
+		"district": "Beyoğlu, Beyoğlu",
+		"photo_url": "https://igx.4sqi.net/img/general/width960/150379775_QkClTDP3Mwibip1K6lTzm7vgJm5LqVP21BWyVGQIPVA.jpg",
+ 		"foursquare_id": "5141c977e4b013ea87527016"
+	}
+]
