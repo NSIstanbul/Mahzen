@@ -50,7 +50,7 @@ class RemoteConfigManager: NSObject {
         self.fetchRemoteValues(completionHandler: completionHandler)
     }
     
-    func experimentValue(for key: String) -> String? {
+    func parameterValue(for key: String) -> String? {
         return remoteConfig[key].stringValue
     }
     

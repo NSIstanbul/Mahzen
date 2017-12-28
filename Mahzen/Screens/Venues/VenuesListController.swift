@@ -81,7 +81,7 @@ class VenuesListController: UIViewController {
         self.presenter = presenter
         self.remoteConfigManager = remoteConfigManager
         self.imageDownloadingManager = imageDownloadingManager
-        self.listStyleToLayoutVenues = remoteConfigManager.experimentValue(for: RemoteConfigKey.venuesListStyle.rawValue)
+        self.listStyleToLayoutVenues = remoteConfigManager.parameterValue(for: RemoteConfigKey.venuesListStyle.rawValue)
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -91,7 +91,6 @@ class VenuesListController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         setupUI()
         setupDataSources()
@@ -105,11 +104,11 @@ class VenuesListController: UIViewController {
     
     // MARK: Private
     fileprivate func setupUI() {
-        title = remoteConfigManager.experimentValue(for: RemoteConfigKey.venuesListTitle.rawValue)
+        title = remoteConfigManager.parameterValue(for: RemoteConfigKey.venuesListTitle.rawValue)
         view.backgroundColor = Defines.Colors.white
         
-        print(remoteConfigManager.experimentValue(for: RemoteConfigKey.venuesListTitle.rawValue))
-        print(remoteConfigManager.experimentValue(for: RemoteConfigKey.venuesListStyle.rawValue))
+        print(remoteConfigManager.parameterValue(for: RemoteConfigKey.venuesListTitle.rawValue))
+        print(remoteConfigManager.parameterValue(for: RemoteConfigKey.venuesListStyle.rawValue))
         
         if "list" == listStyleToLayoutVenues {
             view.addSubview(tableView)
