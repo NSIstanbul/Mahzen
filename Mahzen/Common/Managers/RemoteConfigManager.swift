@@ -44,10 +44,10 @@ class RemoteConfigManager: NSObject {
     }
     
     // MARK: Public
-    func setup() {
+    func setup(completionHandler: @escaping () -> Void) {
         self.configureDefaults()
         self.configureSettings()
-        self.fetchRemoteValues()
+        self.fetchRemoteValues(completionHandler: completionHandler)
     }
     
     func experimentValue(for key: String) -> String? {
@@ -73,13 +73,16 @@ class RemoteConfigManager: NSObject {
         }
     }
     
-    fileprivate func fetchRemoteValues() {
-        remoteConfig.fetch { (status, error) in
+    fileprivate func fetchRemoteValues(completionHandler: @escaping () -> Void) {
+        remoteConfig.fetch(withExpirationDuration: expirationDuration) { (status, error) in
+            print("Fetched from remote")
             if error == nil {
                 RemoteConfig.remoteConfig().activateFetched()
             } else {
+                print(error?.localizedDescription)
                 print(status.debugDescription)
             }
+            completionHandler()
         }
     }
 }

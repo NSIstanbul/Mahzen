@@ -24,10 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let imageDownloadingManager = ImageDownloadingManager()
         
         let remoteConfigManager = RemoteConfigManager()
-        remoteConfigManager.setup()
-        
         let routingManager = RoutingManager(window: window)
-        routingManager.showVenuesList(imageDownloadingManager: imageDownloadingManager, remoteConfigManager: remoteConfigManager)
+        routingManager.showLoadingScreen()
+        remoteConfigManager.setup {
+            routingManager.showVenuesList(imageDownloadingManager: imageDownloadingManager, remoteConfigManager: remoteConfigManager)
+        }
         return true
     }
     

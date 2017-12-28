@@ -19,6 +19,12 @@ final class RoutingManager: NSObject {
     }
     
     // MARK: Public
+    func showLoadingScreen() {
+        let viewController = UIViewController()
+        viewController.view.backgroundColor = UIColor.white
+        window.rootViewController = viewController
+    }
+    
     func showVenuesList(imageDownloadingManager: ImageDownloadingManager, remoteConfigManager: RemoteConfigManager) {
         let dataManager = DataManager()
         
